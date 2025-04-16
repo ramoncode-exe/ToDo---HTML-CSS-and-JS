@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+   width: 200px;;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-container{
+    background-color: #0a2736;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #374e5b;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+div input{
+    border: 1px solid #374e5b;
+    padding: 7px;
+    background-color: #003049;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+div button{
+    background-color: #3B82F6;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+div button:hover{
+    background-color: #60A5FA;
+}
+
+div ul li{
+    list-style-type: none;
+    color: white;
+    padding: 0;
+}
+
+/* JavaScript - Style */
+
+#listTask {
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.task-item {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #374e5b;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003049;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.check-circle {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #cbd5e1;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.check-circle.checked {
+    background-color: #22c55e;
+}
+
+.task-text {
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
+.remove-btn {
+    margin-left: 30px;
+    color: #f87171;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.remove-btn:hover {
+    color: #ef4444;
+}
